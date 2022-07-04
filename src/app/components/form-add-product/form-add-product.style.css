@@ -1,0 +1,15 @@
+.FormAddProduct__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.FormAddProduct__container_item {
+  height: 6%;
+  width: 80%;
+}
+.FormAddProduct__container--saveProduct {
+  height: 6%;
+  margin-top: 10px;
+}

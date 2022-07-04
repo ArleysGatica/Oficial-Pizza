@@ -1,0 +1,19 @@
+.FormAddIngredient__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.FormAddIngredient__container_item {
+  height: 6%;
+  width: 80%;
+  margin-bottom: 4vh;
+}
+.FormAddIngredient__container--saveProduct {
+  height: 6%;
+  width: 60%;
+  margin-top: 10px;
+}
