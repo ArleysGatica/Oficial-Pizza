@@ -1,19 +1,15 @@
-import React from 'react';
-import ReactDOM, { createRoot } from 'react-dom/client';
-import Home from './app/Pages/Home';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { UserContextProvider } from "./app/context/UserContext";
+import IndexRoutes from "./app/routes/index.routes";
 
-// .18
-createRoot(
-  document.getElementById('root')
-  ).render(
-    <Home />
-)
-
-/* .17
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <UserContextProvider>
+      <IndexRoutes />
+    </UserContextProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-*/
+
